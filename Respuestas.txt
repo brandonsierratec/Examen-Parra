@@ -1,0 +1,40 @@
+Nombre: Brandon Brian Sierra Avila 
+No. Control: 15211359
+Prof. Ray Parra
+
+
+1. Dibuje un arbol con la estructura basica de un proyecto y una aplicación de Django
+	La imagen que esta en el repositorio
+	
+2. Mencione tres argumentos que gestiona el comando manage.py
+	-runserver
+	-startapp
+	-migrate
+	
+
+3. Explique la diferencia de utilizar urls global y urls local
+	Las urls locacles solo pueden usarse en la aplicacion, donde se 
+	encuentran todas las direcciones de sus archivos, por otro lado
+	las urls globales se encargan de trazar las direcciones de todas 
+	las aplicaciones del proyecto.
+
+4. Escriba un patron de url para una vista basada en funcion
+	path('list_tweet/',views.list_tweet,name='list_tweet_view')
+
+5. Escriba un patron de url para una vista basada en clase
+	path('List_Tweet/'views.List_Tweet.asview)
+
+6. Escriba el comando para hacer un proyecto en Django
+	django-admin.py startproject nombre_proyecto
+
+7. Escriba el comando para hacer una aplicación en Django
+	python manage.py startapp nombre_aplicacion
+
+8. Mencione para que sirve el archivo Settings.py
+	Contiene todas las configuraciones
+
+9. Escriba el comando para registrar las migraciones de los modelos
+	python manage.py migrate
+
+10. Escriba el comando para sincronizar el modelo con el motor de base de datos.
+	python manage.py makemigrations
