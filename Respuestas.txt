@@ -22,7 +22,7 @@ Prof. Ray Parra
 	path('list_tweet/',views.list_tweet,name='list_tweet_view')
 
 5. Escriba un patrón  de url para una vista basada en clase
-	path('List_Tweet/'views.List_Tweet.asview)
+	path('List_Tweet/'views.List_Tweet.as_view)
 
 6. Escriba el comando para hacer un proyecto en Django
 	django-admin.py startproject nombre_proyecto
